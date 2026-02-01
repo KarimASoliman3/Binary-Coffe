@@ -33,7 +33,7 @@ export default function Services() {
 
   return (
     <>
-      <div className="container my-16 space-y-4">
+      <section className="container my-16 space-y-4">
 
         {/* header seaction */}
         <div className="text-center max-w-lg mx-auto space-y-2">
@@ -91,7 +91,7 @@ export default function Services() {
             </motion.div>
           ))}
         </motion.div>
-      </div>
+      </section>
     </>
   );
 }
